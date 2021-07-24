@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 1</title>
+  </head>
+  <style>
+    h1 {
+      color: #1a64d6;
+      font-family: helvetica;
+      text-align: center;
+      font-size: 34px;
+      margin: 0;
+    }
+    h2 {
+      font-family: helvetica;
+      text-align: center;
+      font-size: 34px;
+      margin: 10px;
+    }
+    ul {
+      display: inline;
+      text-align: center;
+      list-style: none;
+    }
+    li {
+      font-family: helvetica;
+      font-weight: bold;
+    }
+    .thirteen {
+      font-weight: lighter;
+    }
+    .temperatures {
+      font-family: monospace;
+      font-size: 18px;
+      padding: 15px;
+      opacity: 0.7;
+    }
+    .tomorrow {
+      margin: 0px auto;
+      padding: 20px;
+      transition: 200ms ease-in-out;
+      max-width: 350px;
+    }
+    .tomorrow:hover {
+      background: #ffa5000d;
+      border-radius: 10px;
+      max-width: 350px;
+    }
+    .saturday {
+      padding: 20px;
+      margin: 0px auto;
+      transition: 200ms ease-in-out;
+      max-width: 350px;
+    }
+    .saturday:hover {
+      background: rgba(255, 165, 0, 0.05);
+      border-radius: 10px;
+      max-width: 350px;
+    }
+    .sunday {
+      padding: 20px;
+      margin: 0px auto;
+      transition: 200ms ease-in-out;
+      max-width: 350px;
+    }
+    .sunday:hover {
+      background: rgba(255, 165, 0, 0.05);
+      border-radius: 10px;
+      max-width: 350px;
+    }
+    .bold-temp {
+      font-weight: bold;
+    }
+    button {
+      display: block;
+      margin: 0px auto;
+      color: white;
+      background: #1a64d6;
+      border-radius: 30px;
+      font-size: 16px;
+      padding: 20px;
+      border-color: #1a64d6;
+      border-width: thin;
+    }
+    button:hover {
+      color: #1a64d6;
+      background: white;
+      cursor: pointer;
+    }
+    p {
+      font-family: monospace;
+      text-align: center;
+      font-size: 16px;
+      opacity: 0.7;
+    }
+  </style>
+  <body>
+    <h1>
+      🌤 <br />
+      Currently 21° in Tokyo
+    </h1>
+    <h2><span class="thirteen">13°</span> / 23°</h2>
+    <ul>
+      <div class="tomorrow">
+        <li>🌧Tomorrow</li>
+        <div class="temperatures">10° / <span class="bold-temp">22°</span></div>
+      </div>
+      <div class="saturday">
+        <li>🌥 Saturday</li>
+        <div class="temperatures">15° / <span class="bold-temp">17°</span></div>
+      </div>
+      <div class="sunday">
+        <li>☀️ Sunday</li>
+        <div class="temperatures">25° / <span class="bold-temp">28°</span></div>
+      </div>
+    </ul>
+    <br />
+    <button>Change city</button>
+    <br />
+    <p>Coded by Ellinor Friström</p>
+  </body>
+</html>
